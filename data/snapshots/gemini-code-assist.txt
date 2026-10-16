@@ -1,0 +1,246 @@
+### https://codeassist.google/
+Gemini Code Assist for teams and businesses
+close
+menu
+For Business
+FAQ
+Documentation
+Page Contents
+Documentation
+Release notes
+Gemini for Google Cloud
+Unpaid tier (Gemini Code Assist for individuals) and Google One users only
+: Gemini CLI and Gemini Code Assist IDE extensions were replaced by Antigravity CLI and Antigravity on June 18th 2026. Please migrate to avoid disruption. Learn more
+here
+.
+Gemini Code Assist Standard and Enterprise
+AI-assisted development for your business
+Secure generative AI coding assistance and agents to help you with tasks across the Software Development Lifecycle, with Gemini 3 and a 1M token context window.
+Try it now
+Buy Code Assist
+Want to talk with our sales team?
+Fill out this form to get contacted
+Product highlights
+Get to know Gemini Code Assist Enterprise
+0:50
+Features
+Build with Gemini 3
+Gemini 3 is our most intelligent model that can help bring any idea to life. It is available to all Gemini Code Assist Standard and Enterprise subscribers who are in the
+Preview release channel
+.
+AI assistance at terminal
+Gemini Code Assist gives you access to
+Gemini CLI
+, an open source AI agent that brings the power of Gemini directly into your terminal. Gemini CLI provides powerful AI capabilities, from code understanding and file manipulation to command execution and dynamic troubleshooting, offering a fundamental update to your command line experience.
+Agents for development tasks
+Gemini Code Assist's
+agent mode
+, currently in preview, pairs you with agents capable of performing a wide range of tasks across the software development lifecycle. It expands the capabilities of simple command-response interactions inside chat, with support for multiple file edits, full project context, built-in tools, and integration with ecosystem tools using MCP, all while incorporating Human in the Loop (HiTL) for needed oversight.
+AI code assistance
+Gemini Code Assist completes your code as you write, and generates whole code blocks or functions on demand. Code assistance is available in many popular IDEs, such as
+Visual Studio Code
+,
+JetBrains IDEs
+(IntelliJ, PyCharm, GoLand, WebStorm, and more),
+Cloud Workstations
+,
+Cloud Shell Editor
+, and supports most
+programming languages
+, including Java, JavaScript, Python, C, C++, Go, PHP, and SQL.
+Natural language chat
+Through a natural language chat interface, you can quickly chat with Gemini Code Assist to get answers to your coding questions, or receive guidance on coding best practices. Chat is available in all supported IDEs.
+Usage metrics
+Metrics and observability logging along with a dashboard to monitor daily active use, chat exposures, code suggestions, acceptance rates, and lines of code accepted.
+Measuring the impact of Gemini Code Assist in your business
+Read the blog
+Code customization
+Customize Gemini Code Assist using your organization’s private codebases for more tailored assistance. Your developers can get code suggestions more pertinent to your private codebases.
+Local codebase awareness
+Gemini Code Assist generates code that’s more relevant to your application by grounding responses with context from your local codebase and current development session. Perform large-scale changes to your codebase, including adding new features, updating cross-file dependencies, helping with version upgrades, comprehensive code reviews, and more.
+Code transformation
+Gemini Code Assist comes with contextual
+smart actions
+and
+smart commands
+, quick shortcuts to automate tasks such as fix code errors, generation, and code explanation. You can also just select your code and use natural language to quickly take action on the code selected. Because these smart actions and commands are available right in the IDE, it minimizes the context switching of copying/pasting, making the user experience much smoother for developers. Additionally Gemini is in your IDE, it has the context of all your files, and can assist you in a more personalized way.
+API development
+Using Gemini Code Assist in
+Apigee
+, you can create APIs consistent with your enterprise standards without specialized expertise. If an existing API specification in API Hub doesn’t meet your requirements, you can create a new one with just a prompt. Gemini Code Assist considers artifacts such as your security schemas or API objects in API Hub, and uses them to suggest a specification tailored to your enterprise, saving time in review cycles and development. Furthermore, Gemini assists you to easily spin up a mock server for simulating real-world behavior and to build a proxy from your specification. This feature is currently in preview.
+App development in Firebase
+Gemini Code Assist provides access to
+Gemini in Firebase
+, which is integrated within the Firebase console to help streamline your development process. Chat with Gemini to plan and design your application, generate code, troubleshoot issues, and get recommendations based on best practices. Get insights into your app's crashes with AI assistance in Crashlytics, which provides crash summaries, possible root causes, and suggested fixes.
+Gemini and Firebase
+10:59
+BigQuery data insights
+Unlock deeper insights from your data with a library of queries generated from the metadata of your tables.
+App integration and workflow automation
+Using Gemini Code Assist in
+Application Integration
+, you can build end-to-end automation flows from prompts or one-click suggestions. Using the prompts and existing enterprise assets like APIs or applications, Gemini Code Assist suggests multiple flows tailored for your use case. Automatically create variables, preconfigure tasks, and complete documentation in accordance with your enterprise context. Get suggested optimizations and extend existing flows in a single click, to significantly reduce your maintenance efforts.
+Gemini Cloud Assist
+Gain access to the premium paid features of
+Gemini Cloud Assist
+, such as
+Application Design Center
+for AI-assisted infrastructure design, and
+Investigations
+for AI-assisted troubleshooting and issue resolution. Currently available at no charge during preview.
+Enterprise security and privacy
+Our
+data governance policy
+helps ensure customer code, customers' inputs, as well as the recommendations generated will not be used to train any shared models nor used to develop any products. Customers control and own their data and IP. Gemini Code Assist also comes with security features like Private Google Access,
+VPC Service Controls
+, and Enterprise Access Controls with granular IAM permissions to help enterprises adopt AI assistance at scale without compromising on security and privacy.
+Respect intellectual property
+Gemini Code Assist provides source citation so that code suggestions are automatically flagged when directly quoting at length from a source to help enterprises comply with license requirements. Google’s
+IP indemnification policy
+helps protect Gemini Code Assist licensed users from potential legal ramifications concerning copyright infringements.
+Industry certificates
+Gemini Code Assist has achieved multiple industry certifications such as SOC 1/2/3, ISO/IEC 27001 (Information Security Management), 27017 (Cloud Security), 27018 (Protection of PII), and 27701 (Privacy Information Management). More details are at
+Certifications and security for Gemini
+.
+View all features
+How It Works
+Gemini Code Assist uses large language models (LLMs) from Google. The LLMs are fine-tuned with billions of lines of open source code, security data, and Google Cloud documentation and sample code. These models paired with Gemini Code Assist give developers code completion, code generation, natural language chat, and more, in their IDE, and Google Cloud services including Firebase, Colab Enterprise (Vertex AI), Databases BigQuery, Apigee, and Application Integration.
+Setup guide
+6:21
+Learn how to prompt Gemini Code Assist
+Common Uses
+Code faster with AI assistance
+Tutorials, quickstarts, & labs
+Expedite coding with AI code completion, generation, and chat
+Application developers can use Gemini Code Assist to auto-complete code inline while coding in IDEs, or generate code blocks using natural language comments. They can also chat with Gemini Code Assist for any code-related questions in IDE.
+Tutorial: Develop an app with assistance from Gemini Code Assist
+Gemini in Visual Studio Code
+Gemini in JetBrains IDEs
+Gemini in Cloud Workstations
+Tutorials, quickstarts, & labs
+Expedite coding with AI code completion, generation, and chat
+Application developers can use Gemini Code Assist to auto-complete code inline while coding in IDEs, or generate code blocks using natural language comments. They can also chat with Gemini Code Assist for any code-related questions in IDE.
+Tutorial: Develop an app with assistance from Gemini Code Assist
+Gemini in Visual Studio Code
+Gemini in JetBrains IDEs
+Gemini in Cloud Workstations
+Boost your command line experience at the terminal
+Tutorials, quickstarts, & labs
+The most direct path from your prompt to our model
+You can use your Gemini Code Assist licenses to make the most of the Gemini CLI. Developers can enjoy prompt-driven, AI-first coding not only in the IDE, but also at the terminal, with the enhanced efficiency, ubiquity, and portability.
+Install Gemini CLI
+Tutorials, quickstarts, & labs
+The most direct path from your prompt to our model
+You can use your Gemini Code Assist licenses to make the most of the Gemini CLI. Developers can enjoy prompt-driven, AI-first coding not only in the IDE, but also at the terminal, with the enhanced efficiency, ubiquity, and portability.
+Install Gemini CLI
+Automate developer inner loop tasks
+Tutorials, quickstarts, & labs
+Use smart actions to further expedite development process
+Developers can use Gemini Code Assist's smart actions to automate frequent developer inner loop tasks such as test generation and code explanation. These prebuilt, one-click shortcuts help expedite the development process even further.
+Tutorial: How to use smart actions
+Tutorials, quickstarts, & labs
+Use smart actions to further expedite development process
+Developers can use Gemini Code Assist's smart actions to automate frequent developer inner loop tasks such as test generation and code explanation. These prebuilt, one-click shortcuts help expedite the development process even further.
+Tutorial: How to use smart actions
+Uplevel coding and technical skills
+Tutorials, quickstarts, & labs
+Learn about coding and new tools faster with AI assistance
+Whether you are looking for answers on how to write specific queries or scripts, for guidance on the best tools or libraries to solve your problems, or searching for coding best practices, you can seek expert-level advice from Gemini Code Assist by chatting with it in natural language right in the IDE, minimizing context-switching.
+Tutorials, quickstarts, & labs
+Learn about coding and new tools faster with AI assistance
+Whether you are looking for answers on how to write specific queries or scripts, for guidance on the best tools or libraries to solve your problems, or searching for coding best practices, you can seek expert-level advice from Gemini Code Assist by chatting with it in natural language right in the IDE, minimizing context-switching.
+Application development in Firebase
+Tutorials, quickstarts, & labs
+Use Gemini in Firebase to speed up application development
+Integrated within the Firebase console, Gemini in Firebase streamlines the development process by providing quick answers, generating Firebase integration code snippets, offering troubleshooting support, giving app quality insights, and more. This integration simplifies the learning curve, enabling developers to build, launch, and scale their apps with Firebase more rapidly.
+Get started with Gemini in Firebase
+Tutorials, quickstarts, & labs
+Use Gemini in Firebase to speed up application development
+Integrated within the Firebase console, Gemini in Firebase streamlines the development process by providing quick answers, generating Firebase integration code snippets, offering troubleshooting support, giving app quality insights, and more. This integration simplifies the learning curve, enabling developers to build, launch, and scale their apps with Firebase more rapidly.
+Get started with Gemini in Firebase
+Build APIs and automations without special expertise
+Tutorials, quickstarts, & labs
+AI-powered assistance, tailored to your enterprise
+Using Gemini Code Assist in Apigee API Management and Application Integration, you can build APIs from ideas, integrations between applications, and automate your SaaS app workflows. Gemini Code Assist in Apigee addresses these challenges by grounding Google's powerful Gemini models in your organization's specific reality. It achieves this through a unique "Enterprise Context" capability, which leverages your existing API ecosystem in API hub. This context serves as the "enterprise truth" for the AI—providing it with the specific data, security schemas, and established patterns it needs to generate APIs that are consistently aligned with your organization's standards.
+Using Gemini Code Assist in Apigee API Management and Application Integration
+Tutorials, quickstarts, & labs
+AI-powered assistance, tailored to your enterprise
+Using Gemini Code Assist in Apigee API Management and Application Integration, you can build APIs from ideas, integrations between applications, and automate your SaaS app workflows. Gemini Code Assist in Apigee addresses these challenges by grounding Google's powerful Gemini models in your organization's specific reality. It achieves this through a unique "Enterprise Context" capability, which leverages your existing API ecosystem in API hub. This context serves as the "enterprise truth" for the AI—providing it with the specific data, security schemas, and established patterns it needs to generate APIs that are consistently aligned with your organization's standards.
+Using Gemini Code Assist in Apigee API Management and Application Integration
+Pricing
+How Gemini Code Assist pricing works
+Pricing is based on per user per month licenses, with monthly or annual commitment terms.
+Service
+Price
+Gemini Code Assist Standard (monthly)
+$22.80 per user per month.
+Gemini Code Assist Standard (annual)
+$19 per user per month with an upfront annual commitment.
+Gemini Code Assist Enterprise (monthly)
+$54 per user per month.
+Gemini Code Assist Enterprise (annual)
+$45 per user per month with an upfront annual commitment.
+Google Developer Program
+Gemini Code Assist is also available through the Google Developer Program along with many other resources to help you learn, build and grow with Google’s developer products and services.
+Learn more
+.
+Learn more about Gemini Code Assist
+pricing
+.
+How Gemini Code Assist pricing works
+Pricing is based on per user per month licenses, with monthly or annual commitment terms.
+Gemini Code Assist Standard (monthly)
+Price
+$22.80 per user per month.
+Gemini Code Assist Standard (annual)
+Price
+$19 per user per month with an upfront annual commitment.
+Gemini Code Assist Enterprise (monthly)
+Price
+$54 per user per month.
+Gemini Code Assist Enterprise (annual)
+Price
+$45 per user per month with an upfront annual commitment.
+Google Developer Program
+Price
+Gemini Code Assist is also available through the Google Developer Program along with many other resources to help you learn, build and grow with Google’s developer products and services.
+Learn more
+.
+Learn more about Gemini Code Assist
+pricing
+.
+Pricing Calculator
+Estimate your monthly costs for Google Cloud, including region-specific pricing and fees.
+Estimate your cost
+CUSTOM QUOTE
+Connect with our sales team to get a custom quote for your organization.
+Request a quote
+Gemini Code Assist
+Access Gemini Code Assist today
+Try it now
+Learn more about Gemini Code Assist
+Read more
+Data governance policy
+Learn more
+Set up a project
+View tutorial
+Responsible AI
+Learn more
+Business Case
+Learn how businesses leverage Gemini Code Assist to revolutionize software development
+Adam Fayne, Vice President for Enterprise Engineering at Dun & Bradstreet.
+“AI-assisted code creation is a game changer for everyone involved in the solution-delivery business, it enables our teams to innovate, test, and deploy faster, without having to risk security or quality.”
+Learn more
+More customer stories
+How Renault Group is using Google’s software-defined vehicle industry solution leveraging Gemini Code Assist
+Quantiphi reimagines the SDLC with Gemini, boosting developer productivity
+Delivery Hero accelerates code reviews and boosts code quality with Gemini Code Assist
+How Wayfair is using Gemini Code Assist to increase developer productivity.
+Learn more
+Sumitomo Rubber Industries accelerates software development with Gemini Code Assist.
+Learn more
+Wipro's charting the future of technology innovation with Gemini Code Assist.
+Learn more
+About Google
+Privacy
+Site Terms

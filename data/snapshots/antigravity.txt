@@ -1,0 +1,388 @@
+### https://antigravity.google/pricing/
+Google Antigravity - Pricing
+Copy Logo as SVG
+Copied!
+Press Guidelines
+Products
+Use Cases
+Pricing
+Enterprise
+Resources
+🚀
+Launch Remote Control
+Download
+🚀
+Launch Remote Control
+EN
+English (United States)
+Bahasa Indonesia (Indonesia)
+Deutsch (Deutschland)
+English (Canada)
+English (United Kingdom)
+Español (España)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski (Polska)
+Português (Brasil)
+हिन्दी (भारत)
+ไทย (ประเทศไทย)
+日本語 (日本)
+简体中文 (中国)
+繁體中文 (台灣)
+한국어 (대한민국)
+Explore our next generation products
+See overview
+Products
+Antigravity App
+Antigravity Extensions
+Antigravity CLI
+Antigravity IDE
+Antigravity SDK
+Built for developers in the agent-first era
+See overview
+Frontend
+Fullstack
+Science
+Marketer
+Everything you need to stay up-to-date and get help
+Documentation
+Blog
+Changelog
+Newsletter
+Support
+Press
+Releases
+Products
+Explore our next generation products
+See overview
+Products
+Antigravity App
+Antigravity Extensions
+Antigravity CLI
+Antigravity IDE
+Antigravity SDK
+Use Cases
+Built for developers in the agent-first era
+See overview
+Frontend
+Fullstack
+Science
+Marketer
+Pricing
+Enterprise
+Resources
+Everything you need to stay up-to-date and get help
+Documentation
+Blog
+Changelog
+Newsletter
+Support
+Press
+Releases
+Download
+EN
+English (United States)
+Bahasa Indonesia (Indonesia)
+Deutsch (Deutschland)
+English (Canada)
+English (United Kingdom)
+Español (España)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski (Polska)
+Português (Brasil)
+हिन्दी (भारत)
+ไทย (ประเทศไทย)
+日本語 (日本)
+简体中文 (中国)
+繁體中文 (台灣)
+한국어 (대한민국)
+New
+Gemini 4 Argon available for Google AI Pro and Ultra in Google Antigravity
+Learn more
+Choose the perfect plan for your journey
+Choose the perfect plan for your journey
+Generally Available
+For Individuals
+$0/month
+Experience Antigravity without a subscription plan
+Get started
+Plan includes:
+Access to a
+variety of agent models
+Unlimited Tab completions
+Unlimited Command requests
+Basic weekly rate limits
+*
+Get a Taste
+Google AI Pro
+Experience what it is like to build, work, and automate with agents
+Get Pro
+Everything in Individual and:
+More rate limits
+*
+Flexible AI credit pool
+*
+For Developers
+Google AI Ultra
+Leverage Antigravity as your daily driver with higher access to our latest Gemini models
+Get Ultra
+Everything in Pro and:
+Even more rate limits
+*
+Flexible AI credit pool
+*
+For Organizations
+Business plan
+via Google Cloud
+Google Cloud customers can now access the Antigravity App, CLI, and through IDEs via
+Antigravity IDE extensions
+.
+Contact Sales
+For subscription options
+Start now via API
+Available now:
+Access via
+API
+with consumption-based pricing
+Available to eligible Gemini Enterprise customers:
+Standard/Plus
+plans starting at $30 USD per seat per month
+Pay-as-you-go
+plan with $0 seat fee and consumption based pricing
+Key Benefits:
+Access under
+Google Cloud Terms of Service
+Spend caps across
+API
+and
+subscription plans
+Centralized
+administrative controls
+with eligible
+subscription plans
+Existing Gemini Enterprise customers with an invoiced Cloud billing account can visit the
+setup guide
+to enable AI Developer tools for Antigravity.
+Experience liftoff
+Product
+Product
+Download
+Antigravity App
+Antigravity Extensions
+Antigravity CLI
+Antigravity IDE
+Antigravity SDK
+Resources
+Docs
+Changelog
+Releases
+Blog
+Newsletter
+Pricing
+Use Cases
+Press
+About Google
+Google Products
+Privacy
+Terms
+Manage cookies
+### https://antigravity.google/blog/changes-to-antigravity-plans/
+Changes to Antigravity plans | Google Antigravity Blog
+Copy Logo as SVG
+Copied!
+Press Guidelines
+Products
+Use Cases
+Pricing
+Enterprise
+Resources
+🚀
+Launch Remote Control
+Download
+🚀
+Launch Remote Control
+EN
+English (United States)
+Bahasa Indonesia (Indonesia)
+Deutsch (Deutschland)
+English (Canada)
+English (United Kingdom)
+Español (España)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski (Polska)
+Português (Brasil)
+हिन्दी (भारत)
+ไทย (ประเทศไทย)
+日本語 (日本)
+简体中文 (中国)
+繁體中文 (台灣)
+한국어 (대한민국)
+Explore our next generation products
+See overview
+Products
+Antigravity App
+Antigravity Extensions
+Antigravity CLI
+Antigravity IDE
+Antigravity SDK
+Built for developers in the agent-first era
+See overview
+Frontend
+Fullstack
+Science
+Marketer
+Everything you need to stay up-to-date and get help
+Documentation
+Blog
+Changelog
+Newsletter
+Support
+Press
+Releases
+Products
+Explore our next generation products
+See overview
+Products
+Antigravity App
+Antigravity Extensions
+Antigravity CLI
+Antigravity IDE
+Antigravity SDK
+Use Cases
+Built for developers in the agent-first era
+See overview
+Frontend
+Fullstack
+Science
+Marketer
+Pricing
+Enterprise
+Resources
+Everything you need to stay up-to-date and get help
+Documentation
+Blog
+Changelog
+Newsletter
+Support
+Press
+Releases
+Download
+EN
+English (United States)
+Bahasa Indonesia (Indonesia)
+Deutsch (Deutschland)
+English (Canada)
+English (United Kingdom)
+Español (España)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski (Polska)
+Português (Brasil)
+हिन्दी (भारत)
+ไทย (ประเทศไทย)
+日本語 (日本)
+简体中文 (中国)
+繁體中文 (台灣)
+한국어 (대한민국)
+New
+Gemini 4 Argon available for Google AI Pro and Ultra in Google Antigravity
+Learn more
+0:00 / 0:00
+Changes to Antigravity plans - Blog
+blog
+Blog
+Blog
+Changes to Antigravity plans - Blog
+All posts
+/
+Product
+Changes to Antigravity plans
+The Antigravity Team
+·
+May 19, 2026
+·
+3 min read
+Share
+Copy link
+Share on X
+Share on Bluesky
+Share on LinkedIn
+We are making a number of changes to Google Antigravity plans so that you have more options and can get more from your subscription.
+Antigravity in Enterprise
+Google Antigravity is now available to Google Cloud customers through Gemini Enterprise Agent Platform. Read the full
+Google Antigravity in Gemini Enterprise announcement
+.
+The rest of the announcements apply solely to individual tiers through Google AI plans.
+New Google AI Ultra tier
+Previously, Antigravity users had two Google AI subscription options: the $20/month Google AI Pro plan, which provides an entry-level quota for experimentation, and the $250/month Google AI Ultra plan, which offers the highest quota to use Antigravity as a daily driver.
+As our community of builders has grown, we saw an opportunity to better support developers who are actively scaling up their projects.
+We are now introducing a new $100/month Google AI Ultra plan for users with lighter, regular development needs, and reducing the price of our top-tier AI Ultra plan from $250 to $200 per month.
+Shared quota across Gemini models
+Until now, users had separate rate limits for Gemini Flash and Gemini Pro models. Now, we are combining these into a single rate limit, drawn down according to API pricing, allowing you to get more of whichever model you prefer. For example, if Gemini Flash is 8x cheaper than Gemini Pro according to API pricing, you can use X tokens on Gemini Pro, 8X tokens on Gemini Flash (assuming the same ratio of input, output, and cache read tokens), or any linear combination in between. Previously, independent rate limits enforced a specific linear combination, but now all usage draws from one shared pool.
+Because of capacity limitations for non-Gemini models, they remain on a separate fixed rate limit.
+Standardized multipliers across tiers
+The $100/month Ultra plan has a rate limit of 5X worth of tokens compared to the $20/month Pro plan, and the $200/month Ultra plan has a rate limit of 20X worth of tokens compared to the $20/month Pro plan. This ratio also applies during promotional periods when we have access to excess capacity.
+AI credits
+Google is simplifying subscriptions by removing AI credits from the base Google AI plans. Accordingly, we have adjusted the base plan entitlements upward for Gemini models on Antigravity. AI credits are now used solely as an overage mechanism. For a limited time, we’re offering new and existing Google AI Ultra subscribers USD $100 in bonus AI credits for Antigravity that apply if you reach your plan’s quota limit—claim the offer in your Antigravity App. The offer expires May 25, 2026. Terms apply.
+Concluding thoughts
+Making Google Antigravity more accessible and affordable is just as important to
+us as the product advancements. While we would love to offer more generous
+quotas, the unprecedented demand for Antigravity and Gemini means we must
+balance our enthusiasm with real-world compute constraints.
+Ultimately, we hope these announcements give you the flexibility and clarity you
+need to focus more on what matters—experiencing liftoff.
+Share
+Copy link
+Share on X
+Share on Bluesky
+Share on LinkedIn
+Stay in sync with Google Antigravity
+Get the latest product updates, releases, and feature drops.
+Product surfaces
+All Updates
+Antigravity App
+Antigravity CLI
+IDE Extensions
+Antigravity SDK
+Email address
+Subscribe
+I accept Google's
+Terms
+and
+Privacy Policy
+. Unsubscribe anytime.
+Toggle topics above and save preferences.
+Unsubscribe from all
+Subscription confirmed
+You are subscribed to Google Antigravity updates.
+Confirm subscription now
+Manage preferences
+Experience liftoff
+Product
+Product
+Download
+Antigravity App
+Antigravity Extensions
+Antigravity CLI
+Antigravity IDE
+Antigravity SDK
+Resources
+Docs
+Changelog
+Releases
+Blog
+Newsletter
+Pricing
+Use Cases
+Press
+About Google
+Google Products
+Privacy
+Terms
+Manage cookies

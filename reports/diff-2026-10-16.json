@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-16",
+  "results": [
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "errors": [],
+      "final_urls": [
+        "https://cursor.com/pricing"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code (planos Claude)",
+      "errors": [],
+      "final_urls": [
+        "https://claude.com/pricing"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        5.0,
+        6.25,
+        10.0,
+        12.5,
+        15.0,
+        25.0,
+        50.0,
+        125.0,
+        500.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "openai-codex",
+      "name": "OpenAI Codex (planos ChatGPT)",
+      "errors": [],
+      "final_urls": [
+        "https://chatgpt.com/codex/pricing/"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        20.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "errors": [],
+      "final_urls": [
+        "https://github.com/features/copilot/plans"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        5.0,
+        15.0,
+        31.0,
+        70.0,
+        200.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "gemini-code-assist",
+      "name": "Gemini Code Assist",
+      "errors": [],
+      "final_urls": [
+        "https://codeassist.google/products/business"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "antigravity",
+      "name": "Google Antigravity (inclui Antigravity CLI)",
+      "errors": [],
+      "final_urls": [
+        "https://antigravity.google/pricing/",
+        "https://antigravity.google/blog/changes-to-antigravity-plans/"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        30.0,
+        250.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "errors": [],
+      "final_urls": [
+        "https://devin.ai/pricing"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        40.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "trae",
+      "name": "TRAE",
+      "errors": [],
+      "final_urls": [
+        "https://www.trae.ai/pricing"
+      ],
+      "status": "manual",
+      "js_rendered": true,
+      "missing_prices": [],
+      "new_dollar_values": [],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "kiro",
+      "name": "Kiro",
+      "errors": [],
+      "final_urls": [
+        "https://kiro.dev/pricing/"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        5.0,
+        10.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "amazon-q-developer",
+      "name": "Amazon Q Developer",
+      "errors": [],
+      "final_urls": [
+        "https://aws.amazon.com/q/developer/pricing/"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        6.0,
+        6.33,
+        30.0,
+        120.0,
+        190.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "opencode-go",
+      "name": "OpenCode Go",
+      "errors": [],
+      "final_urls": [
+        "https://opencode.ai/go"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        15.0,
+        30.0,
+        60.0,
+        80.0,
+        120.0,
+        160.0,
+        180.0,
+        240.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "errors": [],
+      "final_urls": [
+        "https://zed.dev/pricing"
+      ],
+      "status": "ok",
+      "js_rendered": false,
+      "missing_prices": [],
+      "new_dollar_values": [
+        5.0
+      ],
+      "text_changed": false,
+      "first_snapshot": false,
+      "diff_lines": 0
+    }
+  ]
+}

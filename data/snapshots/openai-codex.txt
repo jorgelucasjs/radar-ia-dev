@@ -1,0 +1,215 @@
+### https://chatgpt.com/codex/pricing/
+Codex Pricing
+About
+Features
+ChatGPT Work
+Deep Research
+Dots
+Finances
+Health
+Images
+Plugins
+Remote
+Shopping
+Sites
+Slack and Teams
+Space
+Study Mode
+Voice
+Voice with Video
+Learn
+ChatGPT for
+Students
+University Educators
+Teachers
+Science and Medicine
+Parents
+Veterans
+Inspiration
+Fitness and Health
+Money and Finances
+Recipes and Cooking
+Travel and Exploration
+Ways to Use
+Canva in ChatGPT
+Spotify in ChatGPT
+ChatGPT for PowerPoint
+Chat with PDFs
+Chat with Presentations
+Chat with Spreadsheets
+For College Students
+Codex
+Overview
+Pricing
+Enterprise
+Import to ChatGPT
+Developer Docs
+Events
+Business
+Business
+Overview
+Contact Sales
+Merchants
+AI solutions for
+Data Science & Analytics
+Engineering
+Finance
+Product Management
+Sales & Marketing
+Pricing
+Overview
+Free
+Go
+Plus
+Pro
+Business
+Enterprise
+Higher Education
+K–12 Teachers
+Download
+Log in
+Sign up for free
+About
+Features
+Learn
+Codex
+Business
+Pricing
+Download
+For life sciences research, explore the Rosalind Academic Plan.
+Learn more
+For life sciences research, explore the Rosalind Academic Plan.
+Learn more
+Codex
+Pricing
+Codex is included in your ChatGPT Free, Go, Plus, Pro, Business, or Enterprise plan.
+Individual
+Business & Enterprise
+Free
+Best for trying out ChatGPT
+/ month
+Get Free
+Test Codex Capabilities
+Limited access to flagship model GPT-5.6
+Limited messages and uploads
+Limited and slower image generation
+Limited deep research
+Limited memory and context
+Go
+Best for longer conversations
+/ month
+Get Go
+Test Codex Capabilities
+More access to our flagship model GPT-5.6
+More messages
+More uploads
+More image creation
+Longer memory
+Access the latest models
+Plus
+Best for advanced work and productivity
+/ month
+Get Plus
+Expanded Codex usage
+Build with the Codex app for macOS and Windows
+Connect tools like Slack, GitHub, Figma, and more with Plugins
+Advanced reasoning models
+Expanded messages and uploads
+Expanded and faster image creation
+Expanded deep research and agent mode
+Expanded memory and context
+Projects, tasks, and custom GPTs
+Early access to new features
+Pro
+Best for research and coding
+From
+/ month
+Get Pro
+Everything in Plus, and:
+Maximum Codex tasks
+Unlock everything included in ChatGPT Pro
+Pro reasoning powered by GPT-6
+Unlimited GPT-5.6 and file uploads
+Unlimited and faster image creation
+Maximum deep research and agent mode
+Maximum memory and context
+Expanded projects, tasks, and custom GPTs
+Research preview of new features
+Unlimited subject to abuse guardrails.
+Learn more
+⁠
+Usage limits
+Model
+Plus
+Standard Business
+API Key
+GPT-6.1 Sol
+15-160
+15-160
+Usage-based
+⁠
+GPT-6 Astra
+5-45
+5-45
+Usage-based
+⁠
+GPT-6 Sol
+15-150
+15-150
+Usage-based
+⁠
+GPT-6 Luna
+350-3,000
+350-3,000
+Usage-based
+⁠
+GPT-5.6 Sol
+10-100
+10-100
+Usage-based
+⁠
+GPT-5.6 Luna
+250-2,000
+250-2,000
+Usage-based
+⁠
+GPT-5.5
+15-80
+15-80
+Usage-based
+⁠
+Local messages and cloud chats share your plan’s usage allowance. Weekly limits may also apply.
+For Enterprise/Edu users with flexible pricing, there are no fixed rate limits—usage scales with
+credits
+⁠
+.
+Enterprise and Edu plans without flexible pricing have the same per-seat usage limits as Plus for most features.
+Frequently asked questions
+What happens when you hit usage limits?
+If you are approaching your usage limit, switching to a lower-cost model can help your allowance last longer. GPT-6 Astra usage varies by task; see the usage table for current estimates.
+Where can I see my current usage limits?
+You can find your current limits in the
+Codex usage dashboard
+⁠
+. If you want to see your remaining limits during an active Codex CLI session, you can use /status.
+How do credits work?
+Credits let you use Codex beyond the usage included in your plan. Credit usage varies by model and task. GPT-6 Astra has no separate compute-unit charge at launch. Existing models keep their current pricing.
+What can I do to make my usage limits last longer?
+Switch to a lower-cost model for routine tasks to help your usage limits last longer. Usage varies by model and task; see the usage table for current estimates.
+Is GPT-6 Astra included in my plan?
+GPT-6 Astra is included within the existing Codex usage allowance on the $100 and $200 Pro plans and the $100 Business plan. Plus and the $20 Business plan include limited GPT-6 Astra usage, with the option to purchase credits for additional access.
+OpenAI
+Research
+Safety
+API
+News
+Terms & Policies
+Terms of Use
+Privacy Policy
+Usage Policy
+Other policies
+OpenAI © 2015–
+2026
+Your privacy choices
+English
+United States

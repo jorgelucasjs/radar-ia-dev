@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "date": "2026-10-16",
+      "tool": null,
+      "type": "lancamento",
+      "title_pt": "Lançamento do Radar IA Dev",
+      "detail_pt": "Primeira recolha de preços: 12 ferramentas, 46 planos, verificados nas páginas oficiais a 16/10/2026.",
+      "source": null
+    },
+    {
+      "date": "2026-10-16",
+      "tool": "windsurf",
+      "type": "promo",
+      "title_pt": "Windsurf: SWE-2 grátis no Devin Desktop/CLI termina hoje",
+      "detail_pt": "A página de preços indica uso grátis do SWE-2 no Devin Desktop e CLI até 16/10/2026.",
+      "source": "https://windsurf.com/pricing"
+    },
+    {
+      "date": "2026-06-18",
+      "tool": "gemini-code-assist",
+      "type": "fim-do-gratis",
+      "title_pt": "Gemini CLI/Code Assist grátis substituídos pelo Antigravity",
+      "detail_pt": "O nível gratuito para indivíduos (e utilizadores Google One) do Gemini CLI e das extensões Code Assist foi substituído pelo Antigravity CLI e Antigravity.",
+      "source": "https://codeassist.google/"
+    },
+    {
+      "date": "2026-03-19",
+      "tool": "windsurf",
+      "type": "mudanca-de-modelo",
+      "title_pt": "Windsurf troca créditos por quotas diárias/semanais",
+      "detail_pt": "Fim dos créditos; criação do plano Max ($200). Preços antigos de Pro/Teams mantidos para quem já era cliente.",
+      "source": "https://devin.ai/blog/windsurf-pricing-plans"
+    }
+  ]
+}

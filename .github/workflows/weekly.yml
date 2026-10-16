@@ -1,0 +1,35 @@
+# Verificação semanal de preços + deploy no GitHub Pages.
+# Ativar: Settings → Pages → Source: "GitHub Actions". Nada corre até o repositório existir.
+name: radar-semanal
+on:
+  schedule: [{ cron: "0 6 * * 1" }]   # segundas, 06:00 UTC (07:00 Luanda/Lagos)
+  workflow_dispatch:
+  push: { branches: [main] }
+permissions: { contents: write, pages: write, id-token: write }
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Verificar preços (não altera tools.json)
+        if: github.event_name != 'push'
+        run: python3 scripts/check_prices.py --update-fx || [ $? -eq 2 ]
+      - name: Gerar site
+        run: python3 scripts/build.py
+      - name: Guardar relatório/snapshots/câmbio
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "radar-bot"; git config user.email "radar-bot@users.noreply.github.com"
+          git add reports data && git commit -m "Verificação semanal $(date -u +%F)" || true
+          git push || true
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+  deploy:
+    needs: check-and-build
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.d.outputs.page_url }}" }
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4
