@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jorgelucasjs.github.io/radar-ia-dev/sitemap.xml

@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "site": "Radar IA Dev",
+    "updated": "2026-10-16",
+    "fx": {
+      "source": "https://open.er-api.com/v6/latest/USD",
+      "fetched_at_utc": "2026-10-16T00:02:31Z",
+      "base": "USD",
+      "rates": {
+        "USD": 1,
+        "BRL": 5.054452,
+        "AOA": 925.436092,
+        "EUR": 0.89165
+      }
+    },
+    "disclaimer_pt": "Preços em USD sem impostos, conforme as páginas oficiais. Conversões são indicativas (câmbio do dia indicado); o valor cobrado no seu cartão pode variar com IOF, IVA e taxas do banco."
+  },
+  "tools": [
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "vendor": "Cursor (vendido via X Subscription Corp)",
+      "type": "Editor/IDE + agentes",
+      "website": "https://cursor.com",
+      "source_url": "https://cursor.com/pricing",
+      "checked": "2026-10-16",
+      "summary_pt": "Editor com agentes. Os planos agora são um 'pool' de uso partilhado entre o Cursor e o Grok, que renova semanalmente.",
+      "free_tier_pt": "Plano Free: pedidos de agente e de chat limitados (quantidade não publicada).",
+      "notes_pt": "Modelos de terceiros (Claude, GPT…) não estão incluídos no pool: são cobrados à parte, ao preço de tabela da API. O Plus só dá acesso a modelos Grok. Preços sem impostos. Desconto anual não aparece na página oficial.",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Uso limitado; pedidos de agente e chat limitados",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Plus",
+          "price_monthly_usd": 8,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Pool 'Basic' partilhado (renova semanalmente); só modelos Grok",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Premium",
+          "price_monthly_usd": 30,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "4× o uso do Plus; agentes na nuvem, revisão de código (Bugbot); modelos de terceiros ao preço da API",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Super",
+          "price_monthly_usd": 100,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "15× o uso do Plus; acesso prioritário em horas de pico",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Ultra",
+          "price_monthly_usd": 200,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "50× o uso do Plus; acesso antecipado a modelos",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Teams",
+          "price_monthly_usd": 30,
+          "price_annual_usd_per_month": null,
+          "per_user": true,
+          "limits_pt": "4–50× o Plus por utilizador; faturação centralizada, SSO (a partir de $30/utilizador/mês)",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code (planos Claude)",
+      "vendor": "Anthropic",
+      "type": "Agente de terminal/IDE",
+      "website": "https://claude.com/product/claude-code",
+      "source_url": "https://claude.com/pricing",
+      "checked": "2026-10-16",
+      "summary_pt": "O Claude Code vem incluído em todos os planos pagos do Claude e partilha o mesmo limite de uso que o chat.",
+      "free_tier_pt": "O plano Free do Claude NÃO inclui o Claude Code.",
+      "notes_pt": "Limites em janelas móveis de 5 horas, com limites semanais adicionais nos planos pagos; a Anthropic não publica números fixos de mensagens. O Pro dá pelo menos 5× o uso do Free por sessão de 5h. Quando chega ao limite, pode ativar créditos de uso às tarifas da API. Enterprise: $20/lugar/mês + uso faturado às tarifas da API.",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Sem Claude Code; chat com limites",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro",
+          "price_monthly_usd": 20,
+          "price_annual_usd_per_month": 17,
+          "per_user": false,
+          "limits_pt": "Inclui Claude Code; ≥5× o uso do Free por sessão de 5h + limite semanal",
+          "verified": true,
+          "verification_note": "Anual: $200 pagos adiantados (~$17/mês)"
+        },
+        {
+          "name": "Max 5x",
+          "price_monthly_usd": 100,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "5× o uso do Pro por sessão de 5h; $100/mês em créditos de API; prioridade em horas de pico",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Max 20x",
+          "price_monthly_usd": 200,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "20× o uso do Pro por sessão de 5h; $200/mês em créditos de API",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "openai-codex",
+      "name": "OpenAI Codex (planos ChatGPT)",
+      "vendor": "OpenAI",
+      "type": "Agente (app, CLI, nuvem)",
+      "website": "https://chatgpt.com/codex",
+      "source_url": "https://chatgpt.com/codex/pricing/",
+      "checked": "2026-10-16",
+      "summary_pt": "O Codex está incluído nos planos ChatGPT Free, Go, Plus, Pro, Business e Enterprise. Mensagens locais e na nuvem partilham o mesmo limite.",
+      "free_tier_pt": "ChatGPT Free: acesso limitado ao Codex para testar.",
+      "notes_pt": "Estimativas oficiais de mensagens do Codex por janela de 5h no Plus: GPT-6.1 Sol 15–160, GPT-6 Astra 5–45, GPT-6 Luna 350–3.000, GPT-5.6 Sol 10–100. Podem aplicar-se limites semanais. Créditos permitem usar além do plano. A página oficial não mostra o preço do Go e do Plus em texto (é carregado dinamicamente).",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Codex limitado",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Go",
+          "price_monthly_usd": null,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Codex limitado; mais mensagens que o Free",
+          "verified": false,
+          "verification_note": "Não verificado na página oficial (fontes secundárias indicam ~$8)"
+        },
+        {
+          "name": "Plus",
+          "price_monthly_usd": null,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Codex 'expandido': GPT-6.1 Sol 15–160 / GPT-6 Astra 5–45 / GPT-6 Luna 350–3.000 mensagens por 5h; limite semanal possível",
+          "verified": false,
+          "verification_note": "Limites verificados; preço não verificado na página oficial (fontes secundárias indicam $20)"
+        },
+        {
+          "name": "Pro $100",
+          "price_monthly_usd": 100,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Tarefas Codex no máximo; GPT-6 Astra incluído no limite do plano",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro $200",
+          "price_monthly_usd": 200,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Mais uso que o Pro $100; GPT-6 Astra incluído",
+          "verified": true,
+          "verification_note": "Proporção exata de uso vs. Pro $100 não publicada"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "vendor": "GitHub / Microsoft",
+      "type": "Extensão IDE + agente + CLI",
+      "website": "https://github.com/features/copilot",
+      "source_url": "https://github.com/features/copilot/plans",
+      "checked": "2026-10-16",
+      "summary_pt": "Funciona com 'GitHub AI Credits' (1 crédito = US$0,01). Completamentos de código são ilimitados nos planos pagos; chat, agente, revisão e CLI gastam créditos.",
+      "free_tier_pt": "Copilot Free: 2.000 completamentos + 50 pedidos de chat por mês.",
+      "notes_pt": "Os créditos incluídos = base + 'flex' (o flex pode mudar ao longo do tempo). Ao esgotar, pode esperar pelo próximo ciclo mensal ou pagar uso adicional a $0,01/crédito.",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "2.000 completamentos + 50 pedidos de chat/mês",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro",
+          "price_monthly_usd": 10,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "US$15/mês em créditos (US$10 base + US$5 flex); completamentos ilimitados",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro+",
+          "price_monthly_usd": 39,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "US$70/mês em créditos (US$39 base + US$31 flex)",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Max",
+          "price_monthly_usd": 100,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "US$200/mês em créditos totais; pensado para uso intenso de agentes",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "gemini-code-assist",
+      "name": "Gemini Code Assist",
+      "vendor": "Google",
+      "type": "Extensão IDE + Gemini CLI (empresas)",
+      "website": "https://codeassist.google",
+      "source_url": "https://codeassist.google/",
+      "checked": "2026-10-16",
+      "summary_pt": "Agora focado em equipas e empresas. Licenças por utilizador incluem o Gemini CLI.",
+      "free_tier_pt": "O nível gratuito para indivíduos (Gemini Code Assist + Gemini CLI) foi substituído pelo Google Antigravity em 18/06/2026.",
+      "notes_pt": "Limites de uso por licença não aparecem na página de preços.",
+      "plans": [
+        {
+          "name": "Standard",
+          "price_monthly_usd": 22.8,
+          "price_annual_usd_per_month": 19,
+          "per_user": true,
+          "limits_pt": "Licença por utilizador; inclui Gemini CLI; limites não publicados na página",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Enterprise",
+          "price_monthly_usd": 54,
+          "price_annual_usd_per_month": 45,
+          "per_user": true,
+          "limits_pt": "Inclui personalização com código privado; limites não publicados na página",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "antigravity",
+      "name": "Google Antigravity (inclui Antigravity CLI)",
+      "vendor": "Google",
+      "type": "IDE com agentes + CLI",
+      "website": "https://antigravity.google",
+      "source_url": "https://antigravity.google/pricing/",
+      "extra_sources": [
+        "https://antigravity.google/blog/changes-to-antigravity-plans/"
+      ],
+      "checked": "2026-10-16",
+      "summary_pt": "Sucessor gratuito do Gemini CLI/Code Assist para indivíduos. A quota paga vem com os planos Google AI.",
+      "free_tier_pt": "Individual $0: Tab e Command ilimitados, quota de agente semanal básica.",
+      "notes_pt": "Pro: quota que renova a cada 5h até ao limite semanal. Ultra $100 = 5× tokens do Pro; Ultra $200 = 20×. Créditos de IA só para excedentes (planos pagos). Valores do blog oficial (arredondados; fontes secundárias indicam $19,99/$99,99/$199,99). Números absolutos de limite não são publicados.",
+      "plans": [
+        {
+          "name": "Individual (grátis)",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Tab e Command ilimitados; quota de agente semanal",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Google AI Pro",
+          "price_monthly_usd": 20,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Quota renovada a cada 5h + limite semanal mais alto",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Google AI Ultra $100",
+          "price_monthly_usd": 100,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "5× os tokens do Pro",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Google AI Ultra $200",
+          "price_monthly_usd": 200,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "20× os tokens do Pro; modelos de terceiros",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "vendor": "Cognition (Devin)",
+      "type": "Editor/IDE + agentes",
+      "website": "https://windsurf.com",
+      "source_url": "https://windsurf.com/pricing",
+      "checked": "2026-10-16",
+      "summary_pt": "Desde 19/03/2026 já não há créditos: cada plano tem uma quota que renova diariamente e semanalmente. A página de preços redireciona para devin.ai/pricing.",
+      "free_tier_pt": "Free: quota leve para agentes, modelos limitados, Tab e edições inline ilimitados.",
+      "notes_pt": "Valores numéricos das quotas não são publicados. Uso extra pago ao preço da API nos planos pagos. Modelo SWE-2 grátis no Devin Desktop e CLI até 16/10/2026.",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Quota leve diária/semanal; Tab ilimitado",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro",
+          "price_monthly_usd": 20,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Quotas maiores; modelos de ponta (OpenAI, Claude, Gemini…); agentes na nuvem (Devin Cloud)",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Max",
+          "price_monthly_usd": 200,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Quotas significativamente maiores",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Teams",
+          "price_monthly_usd": 80,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "US$80/mês pela equipa + US$40/mês por dev; até 200 utilizadores",
+          "verified": true,
+          "verification_note": "Preço base da equipa; some US$40 por lugar"
+        }
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "TRAE",
+      "vendor": "ByteDance",
+      "type": "Editor/IDE + agentes",
+      "website": "https://www.trae.ai",
+      "source_url": "https://www.trae.ai/pricing",
+      "checked": "2026-10-16",
+      "summary_pt": "Os planos pagos incluem um valor em dólares de uso de modelos por mês.",
+      "free_tier_pt": "Free: só modo Auto, uso limitado, 5.000 completamentos/mês.",
+      "notes_pt": "Existe um plano 'Lite' de ~$8 com preço regional para Brasil, Nigéria e outros países, segundo fontes secundárias. Não aparece na página internacional.",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Só modo Auto; uso limitado; 5.000 completamentos/mês",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Lite (regional)",
+          "price_monthly_usd": 8,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "US$8 de uso/mês (Brasil, Nigéria e outros)",
+          "verified": false,
+          "verification_note": "Não verificado na página oficial — fonte secundária: llmrates.ai"
+        },
+        {
+          "name": "Pro",
+          "price_monthly_usd": 20,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "US$20 de uso/mês; todos os modelos; completamento ilimitado; 10 tarefas na nuvem em simultâneo",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro+",
+          "price_monthly_usd": 60,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "US$60 de uso/mês (3× Pro); 15 tarefas na nuvem",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Ultra",
+          "price_monthly_usd": 200,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "US$200 de uso/mês (10× Pro); acesso antecipado; 20 tarefas na nuvem",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "kiro",
+      "name": "Kiro",
+      "vendor": "Amazon (AWS)",
+      "type": "IDE + CLI + Web",
+      "website": "https://kiro.dev",
+      "source_url": "https://kiro.dev/pricing/",
+      "checked": "2026-10-16",
+      "summary_pt": "Funciona com créditos mensais. Os planos pagos aceitam morada de faturação em Angola, Brasil, Moçambique, Cabo Verde e Portugal.",
+      "free_tier_pt": "Free: 50 créditos/mês (modelos abertos + Claude Sonnet 4.5, com limites).",
+      "notes_pt": "Créditos extra a $0,04 cada (pacotes de $5 a $100, válidos 12 meses). Créditos do plano não transitam para o mês seguinte. Bónus de $20 na primeira subscrição paga (login social/Builder ID).",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "50 créditos/mês",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro",
+          "price_monthly_usd": 20,
+          "price_annual_usd_per_month": null,
+          "per_user": true,
+          "limits_pt": "1.000 créditos/mês; modelos premium",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro+",
+          "price_monthly_usd": 40,
+          "price_annual_usd_per_month": null,
+          "per_user": true,
+          "limits_pt": "2.000 créditos/mês",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro Max",
+          "price_monthly_usd": 100,
+          "price_annual_usd_per_month": null,
+          "per_user": true,
+          "limits_pt": "5.000 créditos/mês",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Power",
+          "price_monthly_usd": 200,
+          "price_annual_usd_per_month": null,
+          "per_user": true,
+          "limits_pt": "10.000 créditos/mês",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "amazon-q-developer",
+      "name": "Amazon Q Developer",
+      "vendor": "Amazon (AWS)",
+      "type": "Extensão IDE + CLI",
+      "website": "https://aws.amazon.com/q/developer/",
+      "source_url": "https://aws.amazon.com/q/developer/pricing/",
+      "checked": "2026-10-16",
+      "summary_pt": "Assistente da AWS para IDE e CLI, com agente de transformação de código Java/.NET.",
+      "free_tier_pt": "Free: 50 pedidos de agente/mês e 1.000 linhas de código/mês de transformação Java.",
+      "notes_pt": "No Pro, os pedidos de agente estão 'incluídos com limites' (número não publicado). Transformação extra a $0,003 por linha.",
+      "plans": [
+        {
+          "name": "Free",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "50 pedidos de agente/mês; 1.000 LOC/mês de transformação",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro",
+          "price_monthly_usd": 19,
+          "price_annual_usd_per_month": null,
+          "per_user": true,
+          "limits_pt": "Mais pedidos de agente (limite não publicado); 4.000 LOC/mês por utilizador; indemnização de PI",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "opencode-go",
+      "name": "OpenCode Go",
+      "vendor": "OpenCode (SST)",
+      "type": "Subscrição de modelos para agentes",
+      "website": "https://opencode.ai",
+      "source_url": "https://opencode.ai/go",
+      "checked": "2026-10-16",
+      "summary_pt": "Subscrição barata de modelos abertos (Kimi, DeepSeek, GLM, Qwen…) para usar no OpenCode ou noutro agente.",
+      "free_tier_pt": "Alguns modelos gratuitos por tempo limitado (ex.: LongCat 2.5 Preview).",
+      "notes_pt": "Limites por modelo, ex.: DeepSeek V4.1 Flash ~34.670 pedidos/5h e $80 de uso/mês no Go; Kimi K3 ~110 pedidos/5h e $15/mês. Pode carregar crédito extra.",
+      "plans": [
+        {
+          "name": "Go",
+          "price_monthly_usd": 10,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Limites por modelo (ex.: DeepSeek V4.1 Flash ~34.670 pedidos/5h, US$80/mês de uso)",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Go Plus",
+          "price_monthly_usd": 40,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Limites maiores (ex.: DeepSeek V4.1 Flash ~69.330 pedidos/5h, US$160/mês de uso)",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "vendor": "Zed Industries",
+      "type": "Editor de código",
+      "website": "https://zed.dev",
+      "source_url": "https://zed.dev/pricing",
+      "checked": "2026-10-16",
+      "summary_pt": "Editor rápido e open source. Grátis para sempre se usar as suas próprias chaves de API ou agentes externos (Claude Agent, Codex CLI).",
+      "free_tier_pt": "Personal $0: uso ilimitado com as suas chaves/agentes externos. Teste do Pro de 14 dias com $5.",
+      "notes_pt": "Pro cobra uso acima de $5 ao preço de tabela da API +10%.",
+      "plans": [
+        {
+          "name": "Personal",
+          "price_monthly_usd": 0,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Ilimitado com as suas chaves de API/agentes externos",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Pro",
+          "price_monthly_usd": 10,
+          "price_annual_usd_per_month": null,
+          "per_user": false,
+          "limits_pt": "Edit predictions ilimitadas; US$5 de tokens incluídos; acima disso API +10%",
+          "verified": true,
+          "verification_note": null
+        },
+        {
+          "name": "Business",
+          "price_monthly_usd": 30,
+          "price_annual_usd_per_month": null,
+          "per_user": true,
+          "limits_pt": "Controlo de políticas de IA e dados para a organização",
+          "verified": true,
+          "verification_note": null
+        }
+      ]
+    }
+  ]
+}
