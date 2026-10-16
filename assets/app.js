@@ -25,3 +25,24 @@
       return asc?x.localeCompare(y,"pt"):y.localeCompare(x,"pt");});rows.forEach(function(r){tb.appendChild(r);});});});
   filt();
 })();
+
+/* Newsletter (Kit): envia por fetch com Accept: application/json; sem JS, o formulário faz POST normal. */
+(function(){
+  document.querySelectorAll("form.kit-form").forEach(function(f){
+    var msg=f.parentNode.querySelector(".news-msg"),btn=f.querySelector("button");
+    function show(t,ok){msg.hidden=false;msg.textContent=t;msg.className="news-msg "+(ok?"ok":"err");}
+    f.addEventListener("submit",function(e){
+      if(!window.fetch||!window.FormData)return;           // recorre ao POST normal
+      e.preventDefault();btn.disabled=true;var old=btn.textContent;btn.textContent="A enviar…";
+      fetch(f.action,{method:"POST",body:new FormData(f),headers:{"Accept":"application/json"}})
+        .then(function(r){return r.json().catch(function(){return {};}).then(function(j){return {r:r,j:j};});})
+        .then(function(x){var j=x.j||{};
+          if(x.r.ok&&j.status==="success"){show("✅ Quase lá! Enviámos um e-mail de confirmação. Clique no link para começar a receber o Radar às segundas.",true);f.reset();}
+          else if(j.status==="quarantined"&&j.url){show("🔒 Só falta uma verificação rápida anti-spam. Vamos abrir a página de confirmação…",true);setTimeout(function(){location.href=j.url;},900);}
+          else{show("⚠️ Não foi possível inscrever este e-mail. Verifique o endereço e tente de novo.",false);}
+        })
+        .catch(function(){f.submit();})                    // erro de rede/CORS: POST normal
+        .then(function(){btn.disabled=false;btn.textContent=old;});
+    });
+  });
+})();
