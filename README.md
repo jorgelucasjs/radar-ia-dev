@@ -26,8 +26,30 @@ Rotina semanal: correr o check → ler o relatório (🔴 = preço guardado já 
 → editar `tools.json` (+ `checked`) e `changes.json` → `build.py` → publicar.
 O checker **nunca** edita os preços sozinho.
 
-## Publicar
-- **GitHub Pages:** criar o repositório, fazer push e escolher Settings → Pages → "GitHub Actions".
-- **Cloudflare Pages:** sem comando de build (ou `python3 scripts/build.py`), pasta de saída `site`.
+## Publicar (situação atual)
+O site está em **https://jorgelucasjs.github.io/radar-ia-dev/** e é servido a partir do ramo `gh-pages`
+(Settings → Pages → "Deploy from a branch" → `gh-pages` / root).
+O workflow `radar-semanal` está **desativado** porque o GitHub Actions está bloqueado por um problema de faturação na conta.
 
-Os links são relativos, por isso o site também funciona num subcaminho (`usuario.github.io/radar-ia-dev/`).
+Publicar manualmente:
+```bash
+python3 scripts/build.py
+rm -rf /tmp/ghp && git clone -q -b gh-pages https://github.com/jorgelucasjs/radar-ia-dev.git /tmp/ghp
+find /tmp/ghp -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} + && cp -r site/. /tmp/ghp/
+cd /tmp/ghp && git add -A && git commit -m "Publicar site" && git push
+```
+
+Reativar a automação semanal (depois de resolver a faturação):
+```bash
+gh workflow enable radar-semanal -R jorgelucasjs/radar-ia-dev
+gh api -X PUT repos/jorgelucasjs/radar-ia-dev/pages -f build_type=workflow   # Pages passa a usar o workflow
+gh workflow run radar-semanal -R jorgelucasjs/radar-ia-dev                    # testar
+```
+
+## Newsletter
+Formulário inline do Kit "Radar IA Dev" (id 10053474), via POST para `https://app.kit.com/forms/10053474/subscriptions`
+(campo `email_address`). Não precisa de chave de API: **nunca** coloque chaves no repositório.
+Se o Kit devolver `quarantined`, o visitante é enviado para a verificação anti-spam do Kit.
+
+## Alternativa: Cloudflare Pages
+Sem comando de build (ou `python3 scripts/build.py`), pasta de saída `site`.

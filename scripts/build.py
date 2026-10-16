@@ -5,7 +5,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
 # ---- CONFIG (alterar antes de publicar) ----
 SITE_URL = "https://jorgelucasjs.github.io/radar-ia-dev"   # GitHub Pages (sub-caminho); trocar se houver domínio próprio
-NEWSLETTER_ACTION = "https://example.com/PLACEHOLDER-newsletter-endpoint"  # PLACEHOLDER: trocar pelo endpoint do Buttondown/Beehiiv/Kit
+NEWSLETTER_ACTION = "https://app.kit.com/forms/10053474/subscriptions"  # Kit: formulário inline "Radar IA Dev" (uid 18efadece5)
 CORRECTION_EMAIL = "correcoes@PLACEHOLDER.radariadev.com"                 # PLACEHOLDER
 SPONSOR_EMAIL = "anuncie@PLACEHOLDER.radariadev.com"                      # PLACEHOLDER
 # --------------------------------------------
@@ -43,9 +43,10 @@ def layout(title, desc, path, body, depth, on=""):
 def newsletter_block():
     return f"""<section class="news" id="newsletter"><h2>📬 Radar de segunda-feira</h2>
 <p>Toda segunda: o que mudou nos preços e limites do Cursor, Claude Code, Codex, Copilot e companhia, em 3 minutos de leitura. Grátis.</p>
-<form action="{NEWSLETTER_ACTION}" method="post" target="_blank"><input type="email" name="email" placeholder="o.seu@email.com" required aria-label="Email">
+<form class="kit-form" action="{NEWSLETTER_ACTION}" method="post" data-kit="10053474"><input type="email" name="email_address" placeholder="o.seu@email.com" required autocomplete="email" aria-label="Email">
 <button class="btn" type="submit">Quero receber</button></form>
-<div class="placeholder">⚠️ PLACEHOLDER: formulário ainda não ligado a um serviço de newsletter.</div></section>"""
+<p class="news-msg" role="status" aria-live="polite" hidden></p>
+<p class="news-fine">Sem spam. Pode cancelar com um clique em qualquer edição.</p></section>"""
 fx = meta["fx"]
 _pt = lambda v, d: f"{v:,.{d}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 fxline = f'Câmbio: 1 US$ = R$ {_pt(fx["rates"]["BRL"],2)} · Kz {_pt(fx["rates"]["AOA"],0)} · € {_pt(fx["rates"]["EUR"],3)} (fonte: <a href="{fx["source"]}">open.er-api.com</a>, {fx["fetched_at_utc"][:10]})'
