@@ -4,6 +4,7 @@
   var cur=localStorage.getItem("radar_cur")||"USD";
   function fmt(usd,c){if(usd===""||usd==null||isNaN(usd))return "—";var v=usd*R.rates[c];
     if(usd===0)return "Grátis";var d=(c==="AOA"||(c==="USD"&&usd%1===0))?0:2;
+    if(c==="AOA")return SYM[c]+" "+String(Math.round(v)).replace(/\B(?=(\d{3})+(?!\d))/g,".");
     return SYM[c]+" "+v.toLocaleString(LOC[c],{minimumFractionDigits:d,maximumFractionDigits:d});}
   function render(){document.querySelectorAll("[data-usd]").forEach(function(el){
       var u=el.getAttribute("data-usd");el.firstChild.nodeValue=fmt(u===""?null:parseFloat(u),cur);});
